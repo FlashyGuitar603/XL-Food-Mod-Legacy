@@ -4,6 +4,7 @@ import mariot7.xlfoodmod.Main;
 import mariot7.xlfoodmod.XLFoodModTab;
 import mariot7.xlfoodmod.init.ItemListxlfoodmod;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -29,7 +30,7 @@ public class Bowl extends ItemFood {
 	}
 	
 	public void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
-		player.inventory.addItemStackToInventory(new ItemStack(ItemListxlfoodmod.bowl));
+		player.inventory.addItemStackToInventory(new ItemStack(Items.BOWL));
 	}
 	
 

@@ -17,7 +17,7 @@
                 "ore": "cropOnion"
            },
 	      "B": {
-			"item": "xlfoodmod:bowl"
+			"item": "minecraft:bowl"
 		}
 	},
 	"result": {

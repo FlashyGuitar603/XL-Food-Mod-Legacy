@@ -95,7 +95,7 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod grilled_cheese_sandwich = new ItemFoodxlfoodmod("grilled_cheese_sandwich", 11, 0.4F, false);
 	public static ItemFoodxlfoodmod icecream_sandwich = new ItemFoodxlfoodmod("icecream_sandwich", 6, 0.6F, false);
     //salad
-	public static Itemxlfoodmod bowl = new Itemxlfoodmod("bowl");
+	//public static Itemxlfoodmod bowl = new Itemxlfoodmod("bowl");
 	public static Bowl garden_salad = new Bowl("garden_salad", 5, 0.6F, false);
 	public static Bowl chicken_salad = new Bowl("chicken_salad", 8, 0.6F, false);
 	public static Bowl caesar_salad = new Bowl("caesar_salad", 6, 0.6F, false);
@@ -271,7 +271,7 @@ public class ItemListxlfoodmod {
 		registry.registerAll(grilled_cheese_sandwich);
         registry.registerAll(icecream_sandwich);
 		//salad
-		registry.registerAll(bowl);
+		//registry.registerAll(bowl);
 		registry.registerAll(garden_salad);
 		registry.registerAll(chicken_salad);
 		registry.registerAll(caesar_salad);
@@ -422,7 +422,7 @@ public class ItemListxlfoodmod {
 		grilled_cheese_sandwich.registerItemModel();
 		icecream_sandwich.registerItemModel();
 		//salad
-		bowl.registerItemModel();
+		//bowl.registerItemModel();
 		garden_salad.registerItemModel();
 		chicken_salad.registerItemModel();
 		caesar_salad.registerItemModel();

@@ -23,7 +23,7 @@
             	"ore": "cropTomato"
 		},
 	      "B": {
-			"item": "xlfoodmod:bowl"
+			"item": "minecraft:bowl"
 		}
 	},
 	"result": {
