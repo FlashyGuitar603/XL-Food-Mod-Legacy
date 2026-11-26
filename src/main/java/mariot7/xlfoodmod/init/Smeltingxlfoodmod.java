@@ -1,5 +1,7 @@
 package mariot7.xlfoodmod.init;
 
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -21,7 +23,9 @@ public class Smeltingxlfoodmod {
 		GameRegistry.addSmelting(ItemListxlfoodmod.tomato, new ItemStack(ItemListxlfoodmod.tomato_sauce), 0.35F);
 		GameRegistry.addSmelting(ItemListxlfoodmod.pepper, new ItemStack(ItemListxlfoodmod.hot_sauce), 0.35F);
 		GameRegistry.addSmelting(new ItemStack(Items.DYE, 1, 3), new ItemStack(ItemListxlfoodmod.chocolate_syrup), 0.35F);
+		GameRegistry.addSmelting(Blocks.TALLGRASS, new ItemStack(ItemListxlfoodmod.seaweed), 0.35F);
 
+		//if (OreDictionary(!cropSeaweed = null)); {}
 		//GameRegistry.addSmelting(Items.WATER_BUCKET, new ItemStack(ItemListxlfoodmod.salt), 0.35F);
 
 	}
