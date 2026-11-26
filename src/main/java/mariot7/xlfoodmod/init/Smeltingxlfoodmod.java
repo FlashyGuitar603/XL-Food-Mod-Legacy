@@ -1,14 +1,13 @@
 package mariot7.xlfoodmod.init;
 
 import net.minecraft.init.Items;
-import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class Smeltingxlfoodmod {
-	
+
 	public static void initSmelting() {
-		
+
 		GameRegistry.addSmelting(ItemListxlfoodmod.rice, new ItemStack(ItemListxlfoodmod.fried_rice), 0.35F);
 		GameRegistry.addSmelting(ItemListxlfoodmod.raw_corn, new ItemStack(ItemListxlfoodmod.corn), 0.35F);
 		GameRegistry.addSmelting(ItemListxlfoodmod.dough, new ItemStack(ItemListxlfoodmod.cooked_dough), 0.35F);
@@ -22,8 +21,10 @@ public class Smeltingxlfoodmod {
 		GameRegistry.addSmelting(ItemListxlfoodmod.tomato, new ItemStack(ItemListxlfoodmod.tomato_sauce), 0.35F);
 		GameRegistry.addSmelting(ItemListxlfoodmod.pepper, new ItemStack(ItemListxlfoodmod.hot_sauce), 0.35F);
 		GameRegistry.addSmelting(new ItemStack(Items.DYE, 1, 3), new ItemStack(ItemListxlfoodmod.chocolate_syrup), 0.35F);
-		
+
+		//GameRegistry.addSmelting(Items.WATER_BUCKET, new ItemStack(ItemListxlfoodmod.salt), 0.35F);
+
 	}
-	
+
 
 }

@@ -1,16 +1,12 @@
 package mariot7.xlfoodmod.proxy;
 
 import mariot7.xlfoodmod.Reference;
-import mariot7.xlfoodmod.init.ItemListxlfoodmod;
-import mariot7.xlfoodmod.world.WorldGeneratorGrassxlfoodmod;
-import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ClientProxy extends CommonProxy{
 

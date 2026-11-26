@@ -7,7 +7,6 @@ import mariot7.xlfoodmod.XLFoodModTab;
 import mariot7.xlfoodmod.init.ItemListxlfoodmod;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.EnumAction;

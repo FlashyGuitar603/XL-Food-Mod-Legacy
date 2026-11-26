@@ -1,7 +1,5 @@
 package mariot7.xlfoodmod.init;
 
-import mariot7.xlfoodmod.Main;
-import mariot7.xlfoodmod.Reference;
 import mariot7.xlfoodmod.blocks.Grass;
 import mariot7.xlfoodmod.blocks.Lettuce;
 import mariot7.xlfoodmod.blocks.NetherCake;
@@ -22,14 +20,7 @@ import mariot7.xlfoodmod.blocks.Tomato;
 import mariot7.xlfoodmod.blocks.VanillaFlower;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.event.RegistryEvent.Register;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class BlockListxlfoodmod {
