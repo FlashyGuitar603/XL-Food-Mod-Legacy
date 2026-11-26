@@ -1,7 +1,6 @@
 package mariot7.xlfoodmod;
 
 import mariot7.xlfoodmod.config.Configurationxlfoodmod;
-import mariot7.xlfoodmod.config.RightClickHarvesting;
 import mariot7.xlfoodmod.init.BlockListxlfoodmod;
 import mariot7.xlfoodmod.init.ItemListxlfoodmod;
 import mariot7.xlfoodmod.proxy.CommonProxy;
@@ -77,7 +76,6 @@ public class Main {
     {
 		this.proxy.init(event);
 		FMLCommonHandler.instance().bus().register(instance);
-		RightClickHarvesting.instance.register();
     }
     
 	@EventHandler
