@@ -1,0 +1,19 @@
+{
+   "type":"minecraft:crafting_shaped",
+   "pattern":[
+      "RSR",
+      "RRR"
+   ],
+   "key":{
+      "R":{
+         "item":"xlfoodmod:rice"
+      },
+      "S":{
+         "item":"minecraft:cooked_fish",
+         "data": 1
+      }
+   },
+   "result":{
+      "item":"xlfoodmod:oshizushi"
+   }
+}

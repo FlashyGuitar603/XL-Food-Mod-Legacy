@@ -94,6 +94,11 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod breakfast_sandwich = new ItemFoodxlfoodmod("breakfast_sandwich", 8, 0.6F, false);
 	public static ItemFoodxlfoodmod grilled_cheese_sandwich = new ItemFoodxlfoodmod("grilled_cheese_sandwich", 11, 0.4F, false);
 	public static ItemFoodxlfoodmod icecream_sandwich = new ItemFoodxlfoodmod("icecream_sandwich", 6, 0.6F, false);
+	// Sushi
+	public static Itemxlfoodmod seaweed = new Itemxlfoodmod("seaweed");
+	public static ItemFoodxlfoodmod futomaki = new ItemFoodxlfoodmod("futomaki", 4, 0.6F, false);
+	public static ItemFoodxlfoodmod uramaki = new ItemFoodxlfoodmod("uramaki", 9, 0.4F, false);
+	public static ItemFoodxlfoodmod oshizushi = new ItemFoodxlfoodmod("oshizushi", 12, 0.2F, false);
     //salad
 	//public static Itemxlfoodmod bowl = new Itemxlfoodmod("bowl");
 	public static Bowl garden_salad = new Bowl("garden_salad", 5, 0.6F, false);
@@ -270,6 +275,11 @@ public class ItemListxlfoodmod {
 		registry.registerAll(breakfast_sandwich);
 		registry.registerAll(grilled_cheese_sandwich);
         registry.registerAll(icecream_sandwich);
+		//sushi
+		registry.registerAll(seaweed);
+		registry.registerAll(futomaki);
+		registry.registerAll(uramaki);
+		registry.registerAll(oshizushi);
 		//salad
 		//registry.registerAll(bowl);
 		registry.registerAll(garden_salad);
@@ -421,6 +431,12 @@ public class ItemListxlfoodmod {
 		breakfast_sandwich.registerItemModel();
 		grilled_cheese_sandwich.registerItemModel();
 		icecream_sandwich.registerItemModel();
+		//sushi
+		seaweed.registerItemModel();
+		futomaki.registerItemModel();
+		uramaki.registerItemModel();
+		oshizushi.registerItemModel();
+
 		//salad
 		//bowl.registerItemModel();
 		garden_salad.registerItemModel();
