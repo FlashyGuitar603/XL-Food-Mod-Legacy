@@ -14,9 +14,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Config(modid = Reference.MOD_ID)
 @Config.LangKey("xlfoodmod.config.title")
 public class Configurationxlfoodmod {
-	
-	@Config.Comment("Right Click Harvesting Settings")
-    public static RightClickHarvesting rightclickharvesting = new RightClickHarvesting();
 
 	@Config.Comment("Rock Salt Generation Settings")
     public static RockSaltGeneration rocksaltgeneration = new RockSaltGeneration();
@@ -26,13 +23,6 @@ public class Configurationxlfoodmod {
 	
 	@Config.Comment("Vanilla Flower Generation Settings")
     public static VanillaFlowerGeneration vanillaflowergeneration = new VanillaFlowerGeneration();
-	
-	public static class RightClickHarvesting {
-		
-	    @Config.Comment("Enable right click harvesting")
-	    public boolean rightclickharvest = false;
-	    
-	}
 	
 	public static class RockSaltGeneration {
 		
