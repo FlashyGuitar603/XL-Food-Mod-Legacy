@@ -6,19 +6,19 @@
 		"D  "
 	],
 	"key": {
-           "S": {
+        "S": {
 			"item": "xlfoodmod:stealthy_energy_drink"
 		},
-           "H": {
+        "H": {
 			"item": "xlfoodmod:healthy_energy_drink"
 		},
-           "P": {
+        "P": {
 			"item": "xlfoodmod:speedy_energy_drink"
 		},
-           "T": {
+        "T": {
 			"item": "xlfoodmod:strong_energy_drink"
 		},
-           "D": {
+        "D": {
 			"item": "minecraft:diamond"
 		}
 	},

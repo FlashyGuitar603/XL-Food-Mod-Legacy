@@ -7,19 +7,21 @@
 	],
 	"key": {
 		"E": {
-			"item": "xlfoodmod:pepper"
+			"type": "forge:ore_dict",
+            "ore": "cropPepper"
 		},
 		"O": {
 			"item": "minecraft:potato"
 		},
-           "G": {
+        "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
-	      "C": {
-			"item": "minecraft:carrot"
+	    "C": {
+			"type": "forge:ore_dict",
+         	"ore": "cropCarrot"
 		},
-           "P": {
+        "P": {
 			"item": "minecraft:pumpkin"
 		}
 	},

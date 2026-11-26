@@ -9,11 +9,11 @@
 		"P": {
 			"item": "minecraft:baked_potato"
 		},
-	     "C": {
+	    "C": {
 			"type": "forge:ore_dict",
-            	"ore": "cropCucumber"
+            "ore": "cropCucumber"
 		},
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

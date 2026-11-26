@@ -10,10 +10,10 @@
 			"type": "forge:ore_dict",
             "ore": "cropRice"
 		},
-           "F": {
+        "F": {
 			"item": "minecraft:fermented_spider_eye"
 		},
-           "G": {
+        "G": {
 			"item": "xlfoodmod:glass_mug"
 		}
 	},

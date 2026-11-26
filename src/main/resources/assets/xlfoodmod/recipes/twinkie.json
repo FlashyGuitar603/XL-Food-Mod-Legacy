@@ -8,9 +8,9 @@
 	"key": {
 		"C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
-           "V": {
+        "V": {
 			"item": "xlfoodmod:vanilla_cream"
 		}
 	},

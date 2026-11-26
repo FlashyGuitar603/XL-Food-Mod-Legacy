@@ -8,9 +8,9 @@
 	"key": {
 		"C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodChocolatebar"
+            "ore": "foodChocolatebar"
 		},
-        	"I": {
+        "I": {
 			"item": "xlfoodmod:chocolate_icecream_ball"
 		}
 	},

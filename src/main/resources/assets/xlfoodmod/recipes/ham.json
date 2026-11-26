@@ -6,11 +6,11 @@
         },
         {        
             "type": "forge:ore_dict",
-		 "ore": "dustSalt"
+		    "ore": "dustSalt"
         },
         {        
             "type": "forge:ore_dict",
-		 "ore": "dustSalt"
+		    "ore": "dustSalt"
         }
 	],
 	"result": {

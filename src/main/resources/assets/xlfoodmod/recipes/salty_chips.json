@@ -6,7 +6,7 @@
         },
         {        
             "type": "forge:ore_dict",
-		 "ore": "itemSalt"
+			 "ore": "itemSalt"
         }
 	],
 	"result": {

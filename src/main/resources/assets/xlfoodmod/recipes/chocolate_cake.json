@@ -9,14 +9,15 @@
 		"M": {
 			"item": "minecraft:milk_bucket"
 		},
-           "S": {
+        "S": {
 			"item": "minecraft:sugar"
 		},
-           "C": {
+        "C": {
 			"item": "xlfoodmod:chocolate_syrup"
 		},
-           "W": {
-			"item": "minecraft:wheat"
+        "W": {
+			"type": "forge:ore_dict",
+         	"ore": "cropWheat"
 		}
 	},
 	"result": {

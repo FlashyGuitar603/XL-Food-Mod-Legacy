@@ -9,10 +9,10 @@
 		"S": {
 			"item": "xlfoodmod:chocolate_syrup"
 		},
-           "C": {
+        "C": {
 			"item": "minecraft:cookie"
 		},
-           "M": {
+        "M": {
 			"item": "xlfoodmod:marshmallow"
 		}
 	},

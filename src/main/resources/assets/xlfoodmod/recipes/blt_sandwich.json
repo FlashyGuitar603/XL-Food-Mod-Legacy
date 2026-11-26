@@ -8,18 +8,18 @@
 	"key": {
 		"D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
-           "B": {
+        "B": {
 			"item": "xlfoodmod:bacon"
 		},
 		"L": {
-            	"type": "forge:ore_dict",
-            	"ore": "cropLettuce"
+            "type": "forge:ore_dict",
+            "ore": "cropLettuce"
         },
-           "T": {
-            	"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+        "T": {
+            "type": "forge:ore_dict",
+            "ore": "cropTomato"
         }
 	},
 	"result": {

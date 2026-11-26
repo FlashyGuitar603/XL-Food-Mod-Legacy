@@ -9,9 +9,9 @@
 		"C": {
 			"item": "xlfoodmod:chocolate_syrup"
 		},
-           "D": {
+        "D": {
 			"item": "minecraft:dye",
-                "data": 3
+            "data": 3
 		}
 	},
 	"result": {

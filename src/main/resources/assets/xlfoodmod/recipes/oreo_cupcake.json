@@ -11,7 +11,7 @@
 		},
 	     "D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
 		"P": {
 			"item": "xlfoodmod:paper_cup"

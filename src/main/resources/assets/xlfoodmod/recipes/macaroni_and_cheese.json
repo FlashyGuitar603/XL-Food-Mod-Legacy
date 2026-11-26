@@ -8,11 +8,11 @@
 	"key": {
 		"C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodCheese"
+            "ore": "foodCheese"
 		},
 		"D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		}
 	},
 	"result": {

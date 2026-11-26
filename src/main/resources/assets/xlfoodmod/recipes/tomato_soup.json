@@ -6,11 +6,11 @@
 		" B "
 	],
 	"key": {
-	     "T": {
+	    "T": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+            "ore": "cropTomato"
 		},
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

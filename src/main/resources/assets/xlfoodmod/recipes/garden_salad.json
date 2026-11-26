@@ -8,21 +8,21 @@
 	"key": {
 		"L": {
 			"type": "forge:ore_dict",
-            	"ore": "cropLettuce"
+            "ore": "cropLettuce"
 		},
 		"H": {
 			"type": "forge:ore_dict",
-            	"ore": "foodCheese"
+            "ore": "foodCheese"
 		},
-           "T": {
+        "T": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+            "ore": "cropTomato"
 		},
-	      "C": {
+	    "C": {
 			"type": "forge:ore_dict",
-            	"ore": "cropCucumber"
+            "ore": "cropCucumber"
 		},
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

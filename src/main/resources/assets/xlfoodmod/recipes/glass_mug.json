@@ -7,7 +7,7 @@
 	],
 	"key": {
 		"G": {
-                "type": "forge:ore_dict",
+            "type": "forge:ore_dict",
 			"ore": "blockGlass"
 		}
 	},

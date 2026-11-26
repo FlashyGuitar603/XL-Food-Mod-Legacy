@@ -183,7 +183,9 @@ public class ItemListxlfoodmod {
 		registry.registerAll(fried_rice);
 		OreDictionary.registerOre("foodFriedrice", fried_rice);
 		registry.registerAll(pepper_seeds);
+		OreDictionary.registerOre("seedPepper", pepper_seeds);
 		registry.registerAll(pepper);
+		OreDictionary.registerOre("cropPepper", pepper);
 		registry.registerAll(corn_seeds);
 		OreDictionary.registerOre("seedCorn", corn_seeds);
 		registry.registerAll(raw_corn);

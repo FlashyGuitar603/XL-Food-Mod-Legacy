@@ -8,7 +8,7 @@
 	"key": {
 		"C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
 		"S": {
 			"item": "xlfoodmod:sausage"

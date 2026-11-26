@@ -5,7 +5,8 @@
 	],
 	"key": {
 		"W": {
-			"item": "minecraft:wheat"
+			"type": "forge:ore_dict",
+         	"ore": "cropWheat"
 		},
 		"P": {
 			"item": "minecraft:baked_potato"

@@ -11,17 +11,17 @@
 		},
 		"O": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+            "ore": "cropTomato"
 		},
-           "G": {
+        "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
-	      "P": {
+	    "P": {
 			"type": "forge:ore_dict",
-            	"ore": "cropCucumber"
+            "ore": "cropCucumber"
 		},
-	      "B": {
+	    "B": {
 			"item": "xlfoodmod:bottom_bun"
 		}
 	},

@@ -8,16 +8,16 @@
 	"key": {
 	     "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
-           "D": {
+        "D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
-           "T": {
+        "T": {
 			"item": "xlfoodmod:tomato_sauce"
 		},
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

@@ -6,20 +6,20 @@
 		"G  "
 	],
 	"key": {
-           "R": {
+        "R": {
 			"type": "forge:ore_dict",
-            	"ore": "cropRice"
+            "ore": "cropRice"
 		},
-           "E": {
+        "E": {
 			"item": "xlfoodmod:empty_can"
 		},
-           "W": {
+        "W": {
 			"item": "minecraft:water_bucket"
 		},
-           "S": {
+        "S": {
 			"item": "minecraft:sugar"
 		},
-           "G": {
+        "G": {
 			"item": "minecraft:golden_carrot"
 		}
 	},

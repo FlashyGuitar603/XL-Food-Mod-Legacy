@@ -8,9 +8,9 @@
 	"key": {
 		"D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
-           "C": {
+        "C": {
 			"type": "forge:ore_dict",
            	"ore": "foodCheese"
 		}

@@ -6,29 +6,29 @@
 		" O "
 	],
 	"key": {
-           "N": {
+        "N": {
 			"type": "forge:ore_dict",
-            	"ore": "cropOnion"
+            "ore": "cropOnion"
 		},
-           "L": {
+        "L": {
 			"type": "forge:ore_dict",
-            	"ore": "cropLettuce"
+            "ore": "cropLettuce"
 		},
 		"H": {
 			"type": "forge:ore_dict",
-            	"ore": "foodCheese"
+            "ore": "foodCheese"
 		},
 		"T": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+            "ore": "cropTomato"
 		},
-	     "G": {
+	    "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
-	     "O": {
+	    "O": {
 			"type": "forge:ore_dict",
-            	"ore": "foodTortilla"
+            "ore": "foodTortilla"
 		}
 	},
 	"result": {

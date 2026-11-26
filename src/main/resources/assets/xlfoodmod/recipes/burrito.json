@@ -8,19 +8,19 @@
 	"key": {
 		"C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodCheese"
+            "ore": "foodCheese"
 		},
 		"T": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+            "ore": "cropTomato"
 		},
 	     "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
 	     "O": {
 			"type": "forge:ore_dict",
-            	"ore": "foodTortilla"
+            "ore": "foodTortilla"
 		}
 	},
 	"result": {

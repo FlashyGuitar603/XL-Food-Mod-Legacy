@@ -6,28 +6,28 @@
 		" T "
 	],
 	"key": {
-           "R": {
+        "R": {
 			"type": "forge:ore_dict",
-            	"ore": "cropRice"
+            "ore": "cropRice"
 		},
-           "C": {
+        "C": {
 			"type": "forge:ore_dict",
-            	"ore": "foodCheese"
+            "ore": "foodCheese"
 		},
-           "M": {
+        "M": {
 			"item": "xlfoodmod:tomato_sauce"
 		},
-	     "G": {
+	    "G": {
 			"type": "forge:ore_dict",
-            	"ore": "foodGroundbeef"
+            "ore": "foodGroundbeef"
 		},
-	     "O": {
+	    "O": {
 			"type": "forge:ore_dict",
-            	"ore": "cropOnion"
+            "ore": "cropOnion"
 		},
-	     "T": {
+	    "T": {
 			"type": "forge:ore_dict",
-            	"ore": "foodTortilla"
+            "ore": "foodTortilla"
 		}
 	},
 	"result": {

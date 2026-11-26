@@ -7,16 +7,17 @@
 	],
 	"key": {
 		"A": {
-			"item": "minecraft:carrot"
+			"type": "forge:ore_dict",
+         	"ore": "cropCarrot"
 		},
 		"C": {
 			"item": "minecraft:cooked_beef"
            },
-           "O": {
+        "O": {
 			"type": "forge:ore_dict",
-                "ore": "cropOnion"
+            "ore": "cropOnion"
            },
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

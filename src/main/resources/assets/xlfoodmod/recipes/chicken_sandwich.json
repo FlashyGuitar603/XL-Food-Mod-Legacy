@@ -8,14 +8,14 @@
 	"key": {
 		"D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
-        	"L": {
+        "L": {
 			"type": "forge:ore_dict",
-            	"ore": "cropLettuce"
+            "ore": "cropLettuce"
 		},
 		"C": {
-            	"item": "minecraft:cooked_chicken"
+            "item": "minecraft:cooked_chicken"
         }
 	},
 	"result": {

@@ -8,10 +8,10 @@
 	"key": {
 		"D": {
 			"type": "forge:ore_dict",
-            	"ore": "foodDough"
+            "ore": "foodDough"
 		},
 		"B": {
-            	"item": "xlfoodmod:bacon"
+            "item": "xlfoodmod:bacon"
         	},
        	"C": {
 			"type": "forge:ore_dict",

@@ -6,28 +6,30 @@
 		" B "
 	],
 	"key": {
-	     "C": {
+	    "C": {
 			"type": "forge:ore_dict",
-            	"ore": "cropCucumber"
+            "ore": "cropCucumber"
 		},
-           "A": {
-			"item": "minecraft:carrot"
-		},
-           "E": {
-			"item": "xlfoodmod:pepper"
-		},
-           "T": {
+        "A": {
 			"type": "forge:ore_dict",
-            	"ore": "cropTomato"
+         	"ore": "cropCarrot"
 		},
-           "O": {
+        "E": {
 			"type": "forge:ore_dict",
-            	"ore": "cropOnion"
+            "ore": "cropPepper"
 		},
-           "P": {
+        "T": {
+			"type": "forge:ore_dict",
+            "ore": "cropTomato"
+		},
+        "O": {
+			"type": "forge:ore_dict",
+            "ore": "cropOnion"
+		},
+        "P": {
 			"item": "minecraft:potato"
 		},
-	      "B": {
+	    "B": {
 			"item": "minecraft:bowl"
 		}
 	},

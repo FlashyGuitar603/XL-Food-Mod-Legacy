@@ -9,7 +9,7 @@
 			"item": "minecraft:milk_bucket"
 		},
 		"S": {
-                "type": "forge:ore_dict",
+            "type": "forge:ore_dict",
 			"ore": "itemSalt"
 		}
 	},

@@ -9,14 +9,15 @@
 		"M": {
 			"item": "minecraft:milk_bucket"
 		},
-           "S": {
+        "S": {
 			"item": "minecraft:sugar"
 		},
-           "P": {
+        "P": {
 			"item": "minecraft:pumpkin"
 		},
-           "W": {
-			"item": "minecraft:wheat"
+        "W": {
+			"type": "forge:ore_dict",
+         	"ore": "cropWheat"
 		}
 	},
 	"result": {
