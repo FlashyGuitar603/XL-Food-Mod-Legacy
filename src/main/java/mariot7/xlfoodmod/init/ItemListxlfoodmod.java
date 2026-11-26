@@ -1,17 +1,6 @@
 package mariot7.xlfoodmod.init;
 
-import mariot7.xlfoodmod.items.Beer;
-import mariot7.xlfoodmod.items.BucketOfFriedChicken;
-import mariot7.xlfoodmod.items.Cappuccino;
-import mariot7.xlfoodmod.items.Coffee;
-import mariot7.xlfoodmod.items.DeadlyEnergyDrink;
-import mariot7.xlfoodmod.items.HealthyEnergyDrink;
-import mariot7.xlfoodmod.items.SauceBottle;
-import mariot7.xlfoodmod.items.Bowl;
-import mariot7.xlfoodmod.items.SpeedyEnergyDrink;
-import mariot7.xlfoodmod.items.StealthyEnergyDrink;
-import mariot7.xlfoodmod.items.StrongEnergyDrink;
-import mariot7.xlfoodmod.items.SuperEnergyDrink;
+import mariot7.xlfoodmod.items.*;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraftforge.oredict.OreDictionary;
@@ -169,8 +158,9 @@ public class ItemListxlfoodmod {
 	public static Itemxlfoodmod coffee_cup = new Itemxlfoodmod("coffee_cup");
 	public static Coffee coffee = new Coffee("coffee", 1, 0.2F, false);
 	public static Cappuccino cappuccino = new Cappuccino("cappuccino", 2, 0.2F, false);
-	
-	
+	public static Juice strawberry_juice = new Juice("strawberry_juice", 2, 0.2F, false);
+	public static Slushie strawberry_slushie = new Slushie("strawberry_slushie", 3, 0.4F, false);
+
 	public static void register(IForgeRegistry<Item> registry) {
 		
 		//crops
@@ -353,7 +343,9 @@ public class ItemListxlfoodmod {
 		registry.registerAll(coffee_cup);
 		registry.registerAll(coffee);
 		registry.registerAll(cappuccino);
-		
+		registry.registerAll(strawberry_juice);
+		registry.registerAll(strawberry_slushie);
+
 	}
 	
 	public static void registerModels() {
@@ -509,8 +501,7 @@ public class ItemListxlfoodmod {
 		coffee_cup.registerItemModel();
 		coffee.registerItemModel();
 		cappuccino.registerItemModel();
-		
+		strawberry_juice.registerItemModel();
+		strawberry_slushie.registerItemModel();
 	}
-	
-
 }
