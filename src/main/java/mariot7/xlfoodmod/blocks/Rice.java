@@ -22,7 +22,7 @@ public class Rice extends BlockCrops {
 	}
 	
 	public Item getSeed() {
-		return ItemListxlfoodmod.rice_seeds;
+		return ItemListxlfoodmod.rice;
 	}
 	
 	public Item getCrop() {

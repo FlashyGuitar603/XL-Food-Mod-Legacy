@@ -9,8 +9,8 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ItemListxlfoodmod {
 	
 	//crops
-	public static ItemSeedsxlfoodmod rice_seeds = new ItemSeedsxlfoodmod(BlockListxlfoodmod.rice_plant, Blocks.FARMLAND, "rice_seeds");
-	public static ItemFoodxlfoodmod rice = new ItemFoodxlfoodmod("rice", 1, 0.6F, false);
+	//public static ItemSeedsxlfoodmod rice_seeds = new ItemSeedsxlfoodmod(BlockListxlfoodmod.rice_plant, Blocks.FARMLAND, "rice_seeds");
+	public static ItemSeedFoodxlfoodmod rice = new ItemSeedFoodxlfoodmod(BlockListxlfoodmod.rice_plant, Blocks.FARMLAND, "rice", 1, 0.6F);
 	public static ItemFoodxlfoodmod butter_rice = new ItemFoodxlfoodmod("butter_rice", 4, 0.6F, false);
 	public static ItemFoodxlfoodmod fried_rice = new ItemFoodxlfoodmod("fried_rice", 3, 0.6F, false);
 	public static ItemSeedsxlfoodmod pepper_seeds = new ItemSeedsxlfoodmod(BlockListxlfoodmod.pepper_plant, Blocks.FARMLAND, "pepper_seeds");
@@ -164,10 +164,11 @@ public class ItemListxlfoodmod {
 	public static void register(IForgeRegistry<Item> registry) {
 		
 		//crops
-		registry.registerAll(rice_seeds);
-		OreDictionary.registerOre("seedRice", rice_seeds);
+		//registry.registerAll(rice_seeds);
+		//OreDictionary.registerOre("seedRice", rice_seeds);
 		registry.registerAll(rice);
 		OreDictionary.registerOre("cropRice", rice);
+		OreDictionary.registerOre("seedRice", rice);
 		registry.registerAll(butter_rice);
 		OreDictionary.registerOre("foodButterrice", butter_rice);
 		registry.registerAll(fried_rice);
@@ -351,7 +352,7 @@ public class ItemListxlfoodmod {
 	public static void registerModels() {
 		
 		//crops
-		rice_seeds.registerItemModel();
+		//rice_seeds.registerItemModel();
 		rice.registerItemModel();
 		butter_rice.registerItemModel();
 		fried_rice.registerItemModel();

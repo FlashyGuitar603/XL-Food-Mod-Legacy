@@ -58,7 +58,7 @@ public class Grass extends BlockBush {
 	public ArrayList getDrops(IBlockAccess world, BlockPos pos, IBlockState blockstate, int fortune) {
 	    ArrayList drops = new ArrayList();
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.ricechance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.rice_seeds));
+	    drops.add(new ItemStack(ItemListxlfoodmod.rice));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.pepperchance) {
 	    drops.add(new ItemStack(ItemListxlfoodmod.pepper_seeds));
