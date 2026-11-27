@@ -1,15 +1,15 @@
-{  
-   "type":"crafting_shapeless",
-   "ingredients":[  
+{
+   "type":"minecraft:crafting_shapeless",
+   "ingredients":[
       {
          "type": "forge:ore_dict",
          "ore": "cropStrawberry"
       },
-      {  
+      {
          "item":"minecraft:glass_bottle"
       }
    ],
-   "result":{  
+   "result":{
       "item":"xlfoodmod:strawberry_juice"
    }
 }
