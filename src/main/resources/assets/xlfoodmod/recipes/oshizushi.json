@@ -6,7 +6,8 @@
    ],
    "key":{
       "R":{
-         "item":"xlfoodmod:rice"
+         "type": "forge:ore_dict",
+         "ore": "cropRice"
       },
       "S":{
          "item":"minecraft:cooked_fish",

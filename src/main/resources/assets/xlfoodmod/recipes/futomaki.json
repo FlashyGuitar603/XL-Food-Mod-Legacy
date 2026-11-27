@@ -10,7 +10,8 @@
          "item":"xlfoodmod:seaweed"
       },
       "R":{
-         "item":"xlfoodmod:rice"
+         "type": "forge:ore_dict",
+         "ore": "cropRice"
       },
       "C":{
          "type": "forge:ore_dict",
