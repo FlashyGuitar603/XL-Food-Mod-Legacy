@@ -54,16 +54,16 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod lasagne = new ItemFoodxlfoodmod("lasagne", 12, 0.6F, false);
 	public static ItemFoodxlfoodmod jambon_beurre = new ItemFoodxlfoodmod("jambon_beurre", 15, 0.4F, false);
     //meat
-	public static ItemFoodxlfoodmod flesh = new ItemFoodxlfoodmod("flesh", 4, 0.2F, false);
-	public static ItemFoodxlfoodmod ham = new ItemFoodxlfoodmod("ham", 4, 0.6F, false);
-	public static ItemFoodxlfoodmod sausage = new ItemFoodxlfoodmod("sausage", 3, 1.2F, false);
-	public static ItemFoodxlfoodmod bacon = new ItemFoodxlfoodmod("bacon", 3, 1.2F, false);
-	public static ItemFoodxlfoodmod beef_jerky = new ItemFoodxlfoodmod("beef_jerky", 3, 0.6F, false);
-	public static ItemFoodxlfoodmod ground_beef = new ItemFoodxlfoodmod("ground_beef", 4, 1.2F, false);
-	public static ItemFoodxlfoodmod raw_chicken_wing = new ItemFoodxlfoodmod("raw_chicken_wing", 1, 0.6F, false);
-	public static ItemFoodxlfoodmod cooked_chicken_wing = new ItemFoodxlfoodmod("cooked_chicken_wing", 4, 1.2F, false);
-	public static ItemFoodxlfoodmod spicy_chicken_wing = new ItemFoodxlfoodmod("spicy_chicken_wing", 4, 1.4F, false);
-	public static BucketOfFriedChicken bucket_of_fried_chicken = new BucketOfFriedChicken("bucket_of_fried_chicken", 6, 0.6F, false);
+	public static ItemFoodxlfoodmod flesh = new ItemFoodxlfoodmod("flesh", 4, 0.2F, true);
+	public static ItemFoodxlfoodmod ham = new ItemFoodxlfoodmod("ham", 4, 0.6F, true);
+	public static ItemFoodxlfoodmod sausage = new ItemFoodxlfoodmod("sausage", 3, 1.2F, true);
+	public static ItemFoodxlfoodmod bacon = new ItemFoodxlfoodmod("bacon", 3, 1.2F, true);
+	public static ItemFoodxlfoodmod beef_jerky = new ItemFoodxlfoodmod("beef_jerky", 3, 0.6F, true);
+	public static ItemFoodxlfoodmod ground_beef = new ItemFoodxlfoodmod("ground_beef", 4, 1.2F, true);
+	public static ItemFoodxlfoodmod raw_chicken_wing = new ItemFoodxlfoodmod("raw_chicken_wing", 1, 0.6F, true);
+	public static ItemFoodxlfoodmod cooked_chicken_wing = new ItemFoodxlfoodmod("cooked_chicken_wing", 4, 1.2F, true);
+	public static ItemFoodxlfoodmod spicy_chicken_wing = new ItemFoodxlfoodmod("spicy_chicken_wing", 4, 1.4F, true);
+	public static BucketOfFriedChicken bucket_of_fried_chicken = new BucketOfFriedChicken("bucket_of_fried_chicken", 6, 0.6F, true);
     //fast food
 	public static ItemFoodxlfoodmod top_bun = new ItemFoodxlfoodmod("top_bun", 4, 0.6F, false);
 	public static ItemFoodxlfoodmod bottom_bun = new ItemFoodxlfoodmod("bottom_bun", 4, 0.6F, false);
@@ -71,12 +71,12 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod chickenburger = new ItemFoodxlfoodmod("chickenburger", 9, 0.6F, false);
 	public static ItemFoodxlfoodmod cheeseburger = new ItemFoodxlfoodmod("cheeseburger", 10, 0.6F, false);
 	public static ItemFoodxlfoodmod hot_dog = new ItemFoodxlfoodmod("hot_dog", 8, 0.6F, false);
-	public static ItemFoodxlfoodmod sausage_roll = new ItemFoodxlfoodmod("sausage_roll", 7, 0.6F, false);
+	public static ItemFoodxlfoodmod sausage_roll = new ItemFoodxlfoodmod("sausage_roll", 7, 0.6F, true);
 	public static ItemFoodxlfoodmod slice_of_pizza = new ItemFoodxlfoodmod("slice_of_pizza", 9, 0.2F, false);
 	public static ItemFoodxlfoodmod tortilla = new ItemFoodxlfoodmod("tortilla", 4, 0.6F, false);
 	public static ItemFoodxlfoodmod taco = new ItemFoodxlfoodmod("taco", 7, 0.6F, false);
-	public static ItemFoodxlfoodmod burrito = new ItemFoodxlfoodmod("burrito", 7, 0.6F, false);
-	public static ItemFoodxlfoodmod kebab = new ItemFoodxlfoodmod("kebab", 12, 0.4F, false);
+	public static ItemFoodxlfoodmod burrito = new ItemFoodxlfoodmod("burrito", 7, 0.6F, true);
+	public static ItemFoodxlfoodmod kebab = new ItemFoodxlfoodmod("kebab", 12, 0.4F, true);
 	//sandwiches
 	public static ItemFoodxlfoodmod chicken_sandwich = new ItemFoodxlfoodmod("chicken_sandwich", 10, 0.6F, false);
 	public static ItemFoodxlfoodmod blt_sandwich = new ItemFoodxlfoodmod("blt_sandwich", 12, 0.4F, false);
@@ -89,7 +89,6 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod uramaki = new ItemFoodxlfoodmod("uramaki", 9, 0.4F, false);
 	public static ItemFoodxlfoodmod oshizushi = new ItemFoodxlfoodmod("oshizushi", 12, 0.2F, false);
     //salad
-	//public static Itemxlfoodmod bowl = new Itemxlfoodmod("bowl");
 	public static Bowl garden_salad = new Bowl("garden_salad", 5, 0.6F, false);
 	public static Bowl chicken_salad = new Bowl("chicken_salad", 8, 0.6F, false);
 	public static Bowl caesar_salad = new Bowl("caesar_salad", 6, 0.6F, false);
@@ -164,8 +163,6 @@ public class ItemListxlfoodmod {
 	public static void register(IForgeRegistry<Item> registry) {
 		
 		//crops
-		//registry.registerAll(rice_seeds);
-		//OreDictionary.registerOre("seedRice", rice_seeds);
 		registry.registerAll(rice);
 		OreDictionary.registerOre("cropRice", rice);
 		OreDictionary.registerOre("seedRice", rice);
@@ -274,7 +271,6 @@ public class ItemListxlfoodmod {
 		registry.registerAll(uramaki);
 		registry.registerAll(oshizushi);
 		//salad
-		//registry.registerAll(bowl);
 		registry.registerAll(garden_salad);
 		registry.registerAll(chicken_salad);
 		registry.registerAll(caesar_salad);
@@ -352,7 +348,6 @@ public class ItemListxlfoodmod {
 	public static void registerModels() {
 		
 		//crops
-		//rice_seeds.registerItemModel();
 		rice.registerItemModel();
 		butter_rice.registerItemModel();
 		fried_rice.registerItemModel();
@@ -433,7 +428,6 @@ public class ItemListxlfoodmod {
 		oshizushi.registerItemModel();
 
 		//salad
-		//bowl.registerItemModel();
 		garden_salad.registerItemModel();
 		chicken_salad.registerItemModel();
 		caesar_salad.registerItemModel();
