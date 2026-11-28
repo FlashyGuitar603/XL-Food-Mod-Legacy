@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "xlfoodmod:orange_sapling" },
+    "age=1": { "model": "xlfoodmod:orange_sapling" },
+    "age=2": { "model": "xlfoodmod:orange_sapling" },
+    "age=3": { "model": "xlfoodmod:orange_sapling" },
+    "age=4": { "model": "xlfoodmod:orange_sapling" },
+    "age=5": { "model": "xlfoodmod:orange_sapling" },
+    "age=6": { "model": "xlfoodmod:orange_sapling" },
+    "age=7": { "model": "xlfoodmod:orange_sapling_ripe" }
+  }
+}

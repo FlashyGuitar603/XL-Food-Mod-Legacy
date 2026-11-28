@@ -1,23 +1,6 @@
 package mariot7.xlfoodmod.init;
 
-import mariot7.xlfoodmod.blocks.Grass;
-import mariot7.xlfoodmod.blocks.Lettuce;
-import mariot7.xlfoodmod.blocks.NetherCake;
-import mariot7.xlfoodmod.blocks.Onion;
-import mariot7.xlfoodmod.blocks.OreoCake;
-import mariot7.xlfoodmod.blocks.CheeseCake;
-import mariot7.xlfoodmod.blocks.ChocolateCake;
-import mariot7.xlfoodmod.blocks.Corn;
-import mariot7.xlfoodmod.blocks.Pepper;
-import mariot7.xlfoodmod.blocks.Pizza;
-import mariot7.xlfoodmod.blocks.PumpkinCake;
-import mariot7.xlfoodmod.blocks.Cucumber;
-import mariot7.xlfoodmod.blocks.Rice;
-import mariot7.xlfoodmod.blocks.RockSalt;
-import mariot7.xlfoodmod.blocks.Strawberry;
-import mariot7.xlfoodmod.blocks.StrawberryCake;
-import mariot7.xlfoodmod.blocks.Tomato;
-import mariot7.xlfoodmod.blocks.VanillaFlower;
+import mariot7.xlfoodmod.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -43,6 +26,7 @@ public class BlockListxlfoodmod {
 	public static StrawberryCake strawberry_cake = new StrawberryCake("strawberry_cake", 15, 0.2F);
 	public static PumpkinCake pumpkin_cake = new PumpkinCake("pumpkin_cake", 14, 0.2F);
 	public static Pizza pizza = new Pizza("pizza", 18, 0.2F);
+	public static OrangeSapling orange_sapling = new OrangeSapling("orange_sapling");
 
 
 	public static void register(IForgeRegistry<Block> registry) {
@@ -65,6 +49,7 @@ public class BlockListxlfoodmod {
 		registry.registerAll(strawberry_cake);
 		registry.registerAll(pumpkin_cake);
 		registry.registerAll(pizza);
+		registry.registerAll(orange_sapling);
 
 	}
 
@@ -73,14 +58,6 @@ public class BlockListxlfoodmod {
 		registry.register(rock_salt.createItemBlock());
 		registry.register(grass.createItemBlock());
 		registry.register(vanilla_flower.createItemBlock());
-		//registry.register(rice_plant.createItemBlock());
-		//registry.register(pepper_plant.createItemBlock());
-		//registry.register(corn_plant.createItemBlock());
-		//registry.register(cucumber_plant.createItemBlock());
-		//registry.register(lettuce_plant.createItemBlock());
-		//registry.register(onion_plant.createItemBlock());
-		//registry.register(tomato_plant.createItemBlock());
-		//registry.register(strawberry_plant.createItemBlock());
 		registry.register(chocolate_cake.createItemBlock());
 		registry.register(oreo_cake.createItemBlock());
 		registry.register(cheese_cake.createItemBlock());
@@ -88,6 +65,7 @@ public class BlockListxlfoodmod {
 		registry.register(strawberry_cake.createItemBlock());
 		registry.register(pumpkin_cake.createItemBlock());
 		registry.register(pizza.createItemBlock());
+		registry.register(orange_sapling.createItemBlock());
 		
 	}
 
@@ -111,6 +89,7 @@ public class BlockListxlfoodmod {
 		strawberry_cake.registerItemModel(Item.getItemFromBlock(strawberry_cake));
 		pumpkin_cake.registerItemModel(Item.getItemFromBlock(pumpkin_cake));
 		pizza.registerItemModel(Item.getItemFromBlock(pizza));
+		orange_sapling.registerItemModel(Item.getItemFromBlock(orange_sapling));
 	
 	}
 }

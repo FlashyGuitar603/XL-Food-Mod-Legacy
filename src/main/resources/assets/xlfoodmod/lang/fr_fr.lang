@@ -153,7 +153,11 @@ item.coffee.name=Café
 item.cappuccino.name=Cappuccino
 item.strawberry_juice.name=Strawberry Juice
 item.strawberry_slushie.name=Strawberry Slushie
+tile.orange_sapling.name=Orange Sapling
+item.orange.name=Orange
+item.jaffa.name=Jaffa
 
+jaffa.tooltip=You feel an uncontrollable urge to automate these
 juice.tooltip=%1$sRapidité (0:30)%2$s
 slushie.tooltip=%1$sRapidité II (0:15)%2$s
 beer.tooltip=%1$sNausée II (0:05)%2$s

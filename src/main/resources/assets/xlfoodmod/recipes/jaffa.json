@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " O ",
+    " D "
+  ],
+  "key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "foodChocolatebar"
+    },
+    "O": {
+      "type": "forge:ore_dict",
+      "ore": "cropOrange"
+    },
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "foodDough"
+    }
+  },
+  "result": {
+    "item": "xlfoodmod:jaffa"
+  }
+}

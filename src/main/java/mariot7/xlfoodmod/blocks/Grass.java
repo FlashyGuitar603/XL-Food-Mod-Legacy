@@ -5,6 +5,7 @@ import mariot7.xlfoodmod.Main;
 import mariot7.xlfoodmod.Reference;
 import mariot7.xlfoodmod.XLFoodModTab;
 import mariot7.xlfoodmod.config.Configurationxlfoodmod;
+import mariot7.xlfoodmod.init.BlockListxlfoodmod;
 import mariot7.xlfoodmod.init.ItemListxlfoodmod;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.SoundType;
@@ -17,9 +18,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
 public class Grass extends BlockBush {
-	
+
 	protected String name;
-	
+
 	public Grass(String name, Material material, float hardness, float resistance) {
 		super(material);
 		this.setCreativeTab(XLFoodModTab.tabXLFoodMod);
@@ -35,55 +36,55 @@ public class Grass extends BlockBush {
     {
         return false;
     }
-    
+
     public boolean isOpaqueCube()
     {
         return false;
     }
-    
+
     public boolean shouldSideBeRendered()
     {
     	return false;
     }
-    
+
     public void registerItemModel(Item itemBlock) {
 		Main.proxy.registerItemRenderer(itemBlock, 0, name);
 	}
-	
+
 	public Item createItemBlock() {
 		return new ItemBlock(this).setRegistryName(getRegistryName());
 	}
-    
+
 	@Override
 	public ArrayList getDrops(IBlockAccess world, BlockPos pos, IBlockState blockstate, int fortune) {
 	    ArrayList drops = new ArrayList();
+		if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.orangesaplingchance) {
+			drops.add(new ItemStack(Item.getItemFromBlock(BlockListxlfoodmod.orange_sapling)).getItem());
+		}
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.ricechance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.rice));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.rice));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.pepperchance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.pepper_seeds));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.pepper_seeds));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.cornchance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.corn_seeds));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.corn_seeds));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.cucumberchance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.cucumber_seeds));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.cucumber_seeds));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.lettucechance) {
-		drops.add(new ItemStack(ItemListxlfoodmod.lettuce_seeds));
+			drops.add(new ItemStack(ItemListxlfoodmod.lettuce_seeds));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.onionchance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.onion));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.onion));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.tomatochance) {
-		drops.add(new ItemStack(ItemListxlfoodmod.tomato_seeds));
+			drops.add(new ItemStack(ItemListxlfoodmod.tomato_seeds));
 	    }
 	    if (RANDOM.nextFloat() < Configurationxlfoodmod.grassgeneration.strawberrychance) {
-	    drops.add(new ItemStack(ItemListxlfoodmod.strawberry_seeds));
+	    	drops.add(new ItemStack(ItemListxlfoodmod.strawberry_seeds));
 	    }
 	    return drops;
 	}
-	
-	
 }
-      

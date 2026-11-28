@@ -67,7 +67,11 @@ public class Configurationxlfoodmod {
 		@RequiresWorldRestart
 		@Config.Comment("Maximum amount of Grass in a chunk")
 		public int maxchunk = 4;
-		
+
+		@RangeDouble(min = 0, max = 1)
+		@Config.Comment("Chance of dropping Orange Saplings")
+		public double orangesaplingchance = 0.2;
+
 		@RangeDouble(min = 0, max = 1) 
 		@Config.Comment("Chance of dropping Rice Seeds")
 		public double ricechance = 0.2;

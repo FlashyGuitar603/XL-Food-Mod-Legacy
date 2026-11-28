@@ -5,11 +5,11 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.registries.IForgeRegistry;
+import scala.xml.PrettyPrinter;
 
 public class ItemListxlfoodmod {
 	
 	//crops
-	//public static ItemSeedsxlfoodmod rice_seeds = new ItemSeedsxlfoodmod(BlockListxlfoodmod.rice_plant, Blocks.FARMLAND, "rice_seeds");
 	public static ItemSeedFoodxlfoodmod rice = new ItemSeedFoodxlfoodmod(BlockListxlfoodmod.rice_plant, Blocks.FARMLAND, "rice", 1, 0.6F);
 	public static ItemFoodxlfoodmod butter_rice = new ItemFoodxlfoodmod("butter_rice", 4, 0.6F, false);
 	public static ItemFoodxlfoodmod fried_rice = new ItemFoodxlfoodmod("fried_rice", 3, 0.6F, false);
@@ -27,6 +27,7 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod tomato = new ItemFoodxlfoodmod("tomato", 1, 0.6F, false);
 	public static ItemSeedsxlfoodmod strawberry_seeds = new ItemSeedsxlfoodmod(BlockListxlfoodmod.strawberry_plant, Blocks.FARMLAND, "strawberry_seeds");
 	public static ItemFoodxlfoodmod strawberry = new ItemFoodxlfoodmod("strawberry", 1, 0.6F, false);
+	public static ItemFoodxlfoodmod orange = new ItemFoodxlfoodmod("orange", 1, 0.6F, false);
 	//other foods
 	public static ItemFoodxlfoodmod salt = new ItemFoodxlfoodmod("salt", 0, 0.2F, false);
 	public static ItemFoodxlfoodmod dough = new ItemFoodxlfoodmod("dough", 1, 0.6F, false);
@@ -122,6 +123,7 @@ public class ItemListxlfoodmod {
 	public static ItemFoodxlfoodmod sugar_donut = new ItemFoodxlfoodmod("sugar_donut", 5, 0.6F, false);
 	public static ItemFoodxlfoodmod chocolate_donut = new ItemFoodxlfoodmod("chocolate_donut", 5, 0.6F, false);
 	public static ItemFoodxlfoodmod vanilla_donut = new ItemFoodxlfoodmod("vanilla_donut", 5, 0.6F, false);
+	public static Jaffa jaffa = new Jaffa("jaffa", 5, 0.6F, false);
 	//cupcakes
 	public static Itemxlfoodmod paper_cup = new Itemxlfoodmod("paper_cup");
 	public static ItemFoodxlfoodmod vanilla_cupcake = new ItemFoodxlfoodmod("vanilla_cupcake", 2, 0.6F, false);
@@ -198,6 +200,8 @@ public class ItemListxlfoodmod {
 		OreDictionary.registerOre("seedStrawberry", strawberry_seeds);
 		registry.registerAll(strawberry);
 		OreDictionary.registerOre("cropStrawberry", strawberry);
+		registry.registerAll(orange);
+		OreDictionary.registerOre("cropOrange", orange);
 		//other foods
 		registry.registerAll(salt);
 		OreDictionary.registerOre("itemSalt", salt);
@@ -305,6 +309,7 @@ public class ItemListxlfoodmod {
 		registry.registerAll(sugar_donut);
 		registry.registerAll(chocolate_donut);
 		registry.registerAll(vanilla_donut);
+		registry.registerAll(jaffa);
 		//cupcakes
 		registry.registerAll(paper_cup);
 		registry.registerAll(vanilla_cupcake);
@@ -365,6 +370,7 @@ public class ItemListxlfoodmod {
 		tomato.registerItemModel();
 		strawberry_seeds.registerItemModel();
 		strawberry.registerItemModel();
+		orange.registerItemModel();
 		//other foods
 		salt.registerItemModel();
 		dough.registerItemModel();
@@ -426,7 +432,6 @@ public class ItemListxlfoodmod {
 		futomaki.registerItemModel();
 		uramaki.registerItemModel();
 		oshizushi.registerItemModel();
-
 		//salad
 		garden_salad.registerItemModel();
 		chicken_salad.registerItemModel();
@@ -461,6 +466,7 @@ public class ItemListxlfoodmod {
 		sugar_donut.registerItemModel();
 		chocolate_donut.registerItemModel();
 		vanilla_donut.registerItemModel();
+		jaffa.registerItemModel();
 		//cupcake
 		paper_cup.registerItemModel();
 		vanilla_cupcake.registerItemModel();
