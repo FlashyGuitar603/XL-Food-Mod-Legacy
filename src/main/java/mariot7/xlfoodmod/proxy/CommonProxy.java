@@ -8,20 +8,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CommonProxy {
 	
-	public void preInit(FMLPreInitializationEvent preEvent) {
-		Smeltingxlfoodmod.initSmelting();
-	}
+	public void preInit(FMLPreInitializationEvent preEvent) {}
 	
 	public void init(FMLInitializationEvent event) {
-
+		Smeltingxlfoodmod.initSmelting();
 	}
 
-	public void postInit(FMLPostInitializationEvent postEvent) {
+	public void postInit(FMLPostInitializationEvent postEvent) {}
 	
-	}
-	
-	public void registerItemRenderer(Item item, int meta, String id) {
-	}
-	
-	
+	public void registerItemRenderer(Item item, int meta, String id) {}
 }

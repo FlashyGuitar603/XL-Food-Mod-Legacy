@@ -4,7 +4,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-//import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class Smeltingxlfoodmod {
 
@@ -23,17 +23,15 @@ public class Smeltingxlfoodmod {
 		GameRegistry.addSmelting(ItemListxlfoodmod.tomato, new ItemStack(ItemListxlfoodmod.tomato_sauce), 0.35F);
 		GameRegistry.addSmelting(ItemListxlfoodmod.pepper, new ItemStack(ItemListxlfoodmod.hot_sauce), 0.35F);
 		GameRegistry.addSmelting(new ItemStack(Items.DYE, 1, 3), new ItemStack(ItemListxlfoodmod.chocolate_syrup), 0.35F);
-		//GameRegistry.addSmelting(Items.WATER_BUCKET, new ItemStack(ItemListxlfoodmod.salt), 0.35F);
 
 		// Shoutout to sabre_penguin in the coalition discord for the help on this one.
-		// No worky ;(
-		//if (OreDictionary.doesOreNameExist("cropSeaweed")){
-		//	for (ItemStack input: OreDictionary.getOres("cropSeaweed"))
-		//	{
-		//		GameRegistry.addSmelting(input, new ItemStack(ItemListxlfoodmod.seaweed), 0.35F);
-		//	}
-		//} else {
+		if (OreDictionary.doesOreNameExist("cropSeaweed")){
+			for (ItemStack input: OreDictionary.getOres("cropSeaweed"))
+			{
+				GameRegistry.addSmelting(input, new ItemStack(ItemListxlfoodmod.seaweed), 0.35F);
+			}
+		} else {
 			GameRegistry.addSmelting(new ItemStack(Blocks.TALLGRASS, 1, 1), new ItemStack(ItemListxlfoodmod.seaweed), 0.35F);
-		//}
+		}
     }
 }
