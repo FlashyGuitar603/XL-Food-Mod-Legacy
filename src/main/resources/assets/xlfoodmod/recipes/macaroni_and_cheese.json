@@ -1,9 +1,9 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		" C ",
+		"C C",
 		"DDD",
-		" C "
+		" B "
 	],
 	"key": {
 		"C": {
@@ -13,6 +13,9 @@
 		"D": {
 			"type": "forge:ore_dict",
             "ore": "foodDough"
+		},
+		"B": {
+			"item": "minecraft:bowl"
 		}
 	},
 	"result": {
