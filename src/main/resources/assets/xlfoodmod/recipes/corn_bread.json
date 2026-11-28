@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WPW"
+    "WCW"
   ],
   "key": {
     "W": {
       "type": "forge:ore_dict",
       "ore": "cropWheat"
     },
-    "P": {
+    "C": {
       "type": "forge:ore_dict",
       "ore": "cropCorn"
     }
