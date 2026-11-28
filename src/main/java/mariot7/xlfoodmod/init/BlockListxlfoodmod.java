@@ -24,7 +24,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class BlockListxlfoodmod {
-	
+
 	public static RockSalt rock_salt = new RockSalt("rock_salt", Material.ROCK);
 	public static Grass grass = new Grass("grass", Material.GRASS, 0, 0);
 	public static VanillaFlower vanilla_flower = new VanillaFlower("vanilla_flower", Material.GRASS, 0, 0);
@@ -43,10 +43,10 @@ public class BlockListxlfoodmod {
 	public static StrawberryCake strawberry_cake = new StrawberryCake("strawberry_cake", 15, 0.2F);
 	public static PumpkinCake pumpkin_cake = new PumpkinCake("pumpkin_cake", 14, 0.2F);
 	public static Pizza pizza = new Pizza("pizza", 18, 0.2F);
-	
-	
+
+
 	public static void register(IForgeRegistry<Block> registry) {
-		
+
 		registry.registerAll(rock_salt);
 		registry.registerAll(grass);
 		registry.registerAll(vanilla_flower);
@@ -65,22 +65,22 @@ public class BlockListxlfoodmod {
 		registry.registerAll(strawberry_cake);
 		registry.registerAll(pumpkin_cake);
 		registry.registerAll(pizza);
-		
+
 	}
 
 	public static void registerItemBlocks(IForgeRegistry<Item> registry) {
-		
+
 		registry.register(rock_salt.createItemBlock());
 		registry.register(grass.createItemBlock());
 		registry.register(vanilla_flower.createItemBlock());
-		registry.register(rice_plant.createItemBlock());
-		registry.register(pepper_plant.createItemBlock());
-		registry.register(corn_plant.createItemBlock());
-		registry.register(cucumber_plant.createItemBlock());
-		registry.register(lettuce_plant.createItemBlock());
-		registry.register(onion_plant.createItemBlock());
-		registry.register(tomato_plant.createItemBlock());
-		registry.register(strawberry_plant.createItemBlock());
+		//registry.register(rice_plant.createItemBlock());
+		//registry.register(pepper_plant.createItemBlock());
+		//registry.register(corn_plant.createItemBlock());
+		//registry.register(cucumber_plant.createItemBlock());
+		//registry.register(lettuce_plant.createItemBlock());
+		//registry.register(onion_plant.createItemBlock());
+		//registry.register(tomato_plant.createItemBlock());
+		//registry.register(strawberry_plant.createItemBlock());
 		registry.register(chocolate_cake.createItemBlock());
 		registry.register(oreo_cake.createItemBlock());
 		registry.register(cheese_cake.createItemBlock());
@@ -92,7 +92,7 @@ public class BlockListxlfoodmod {
 	}
 
 	public static void registerModels() {
-		
+
 		rock_salt.registerItemModel(Item.getItemFromBlock(rock_salt));
 		grass.registerItemModel(Item.getItemFromBlock(grass));
 		vanilla_flower.registerItemModel(Item.getItemFromBlock(vanilla_flower));
@@ -113,6 +113,4 @@ public class BlockListxlfoodmod {
 		pizza.registerItemModel(Item.getItemFromBlock(pizza));
 	
 	}
-	     
-	
 }
